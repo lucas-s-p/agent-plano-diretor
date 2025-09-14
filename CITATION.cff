@@ -1,0 +1,8 @@
+@software{pereira2025assistente,
+  title={Assistente do Plano Diretor de Campina Grande: Sistema RAG + Agentes},
+  author={Lucas de Sousa Pereira},
+  year={2025},
+  url={https://github.com/lucas-s-p/agent-plano-diretor},
+  institution={Universidade Federal de Campina Grande},
+  note={Projeto Final - Disciplina de LLM}
+}
