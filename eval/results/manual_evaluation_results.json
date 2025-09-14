@@ -1,49 +1,49 @@
 {
   "evaluation_summary": {
-    "total_questions": 15,
-    "successful_answers": 15,
+    "total_questions": 28,
+    "successful_answers": 28,
     "success_rate": 1.0,
-    "avg_latency_seconds": 3.895,
-    "avg_memory_usage_mb": 15.56,
-    "avg_chunks_retrieved": 2.7,
+    "avg_latency_seconds": 5.149,
+    "avg_memory_usage_mb": 4.67,
+    "avg_chunks_retrieved": 2.1,
     "evaluation_method": "Manual (RAGAS-style metrics)"
   },
   "manual_ragas_metrics": {
-    "faithfulness": 1.0,
-    "answer_relevancy": 0.971,
-    "context_precision": 0.489,
-    "context_recall": 0.467
+    "faithfulness": 0.993,
+    "answer_relevancy": 0.976,
+    "context_precision": 0.619,
+    "context_recall": 0.607
   },
   "performance_by_difficulty": {
     "easy": {
-      "count": 4,
+      "count": 10,
       "avg_faithfulness": 1.0,
-      "avg_relevancy": 0.89
+      "avg_relevancy": 0.943
     },
     "medium": {
-      "count": 6,
+      "count": 12,
       "avg_faithfulness": 1.0,
-      "avg_relevancy": 1.0
+      "avg_relevancy": 0.992
     },
     "hard": {
-      "count": 5,
-      "avg_faithfulness": 1.0,
+      "count": 6,
+      "avg_faithfulness": 0.967,
       "avg_relevancy": 1.0
     }
   },
   "performance_by_type": {
     "factual": {
-      "count": 5,
+      "count": 13,
       "avg_faithfulness": 1.0,
-      "avg_relevancy": 0.96
+      "avg_relevancy": 0.967
     },
     "procedural": {
-      "count": 6,
-      "avg_faithfulness": 1.0,
-      "avg_relevancy": 0.96
+      "count": 10,
+      "avg_faithfulness": 0.98,
+      "avg_relevancy": 0.976
     },
     "conceptual": {
-      "count": 4,
+      "count": 5,
       "avg_faithfulness": 1.0,
       "avg_relevancy": 1.0
     }
@@ -51,7 +51,7 @@
   "detailed_results": [
     {
       "question": "O que diz o Art. 175 sobre cidades inteligentes?",
-      "answer": "O Art. 175 estabelece, como diretrizes da Política de Cidade Inteligente e Governo Aberto, um conjunto de ações voltadas à digitalização, ao uso de tecnologias avançadas e à gestão inteligente dos recursos municipais. Entre as principais determinações estão:\n\n- **Prestação digital de serviços públicos** (agendamento de consultas, exames, matrículas, emissão de documentos, etc.) complementando a forma presencial [1].  \n- **Disponibilização online de produtos, mapas e legislações do Plano Diretor** [1].  \n- **Ampliação da infraestrutura digital** para viabilizar serviços mediados por tecnologia [1].  \n- **Elaboração do Plano de Tecnologias da Cidade Inteligente**, visando reduzir desigualdades e resolver problemas locais [1].  \n- **Universalização progressiva da internet gratuita e de qualidade**, com foco em espaços e equipamentos públicos [1].  \n- **Adopção de ferramentas tecnológicas** para otimizar iluminação pública, mobilidade urbana, trânsito, saneamento, segurança, entre outros [1].  \n- **Regulação e segurança jurídica** para ciência, tecnologia e inovação, atraindo empresas de base tecnológica [1].  \n- **Uso da infraestrutura de Big Data** para coleta, armazenamento, processamento e análise integrada de dados municipais [2].  \n- **Fomento da metodologia BIM** no desenvolvimento de projetos e execução de obras [2].  \n- **Inventário de bens e equipamentos públicos**, monitoramento de zoneamento, parcelamento e uso do solo, e cadastro de propriedades rurais [2].  \n- **Gestão eficiente e inteligente dos dados** gerados pelos órgãos municipais, disponibilizados em base interativa georreferenciada [2].  \n- **Elaboração e disponibilização do Atlas de Campina Grande** em plataforma digital [2].  \n- **Melhoria da aplicabilidade dos investimentos** na Política de Ciência, Tecnologia e Inovação [2].  \n- **Fomento a ambientes de inovação**, transferência e intercâmbio de tecnologias, e criação de laboratórios de inovação cidadã no setor público [2].\n\nEssas diretrizes configuram o marco legal que orienta a construção de uma “cidade inteligente” em Campina Grande, integrando serviços digitais, infraestrutura de dados, planejamento urbano e estímulo à inovação. [3]\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "O Art. 175 estabelece as diretrizes da Política de Cidade Inteligente e Governo Aberto para o município de Campina Grande, determinando que a administração deve:\n\n1. **Fomentar a prestação digital de serviços públicos** (agendamento de consultas, exames, matrículas, emissão de documentos etc.) e disponibilizar, em plataforma digital, os produtos, mapas e legislações do Plano Diretor [1];  \n\n2. **Ampliar a infraestrutura digital** do município, universalizar o acesso gratuito e de qualidade à internet, e adotar ferramentas tecnológicas para otimizar serviços como iluminação pública, mobilidade urbana, trânsito, saneamento e segurança [1];  \n\n3. **Consolidar o uso de tecnologias** por meio da elaboração do Plano de Tecnologias da Cidade Inteligente, da regulação e segurança jurídica para ciência, tecnologia e inovação, e da atração de empresas de base tecnológica [1];  \n\n4. **Utilizar recursos avançados de dados**, como Big Data para coleta, armazenamento, processamento e análise integrada de informações municipais, e a metodologia BIM para desenvolvimento de projetos e execução de obras [2];  \n\n5. **Realizar inventários e monitoramento** de bens públicos, áreas verdes, zoneamento, parcelamento e uso do solo, bem como cadastrar propriedades rurais e disponibilizar esses dados em bases georreferenciadas de amplo acesso [2];  \n\n6. **Criar instrumentos de transparência e participação**, como o Atlas digital do município, laboratórios de inovação cidadã e ambientes favoráveis à transferência e intercâmbio de tecnologias [2].\n\nEssas disposições visam reduzir desigualdades, melhorar a eficiência da gestão pública e promover a inovação no território de Campina Grande [3].\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "cidade inteligente",
         "tecnologia",
@@ -60,8 +60,8 @@
       "difficulty": "easy",
       "question_type": "factual",
       "context_chunks_count": 2,
-      "latency": 3.453,
-      "memory_usage": 167.51953125,
+      "latency": 2.379,
+      "memory_usage": 62.7734375,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.7999999999999999,
@@ -71,7 +71,7 @@
     },
     {
       "question": "O que são Zonas Especiais de Interesse Social (ZEIS)?",
-      "answer": "Zonas Especiais de Interesse Social (ZEIS) são áreas urbanas demarcadas, por meio dos Anexos XIII e XIV da lei, destinadas a atender demandas sociais específicas, como habitação e infraestrutura para população de baixa renda [3].  \n\nO plano municipal já prevê a criação de ZEIS específicas, como a “ZEIS 2” citada no Art. 54, que substitui zonas anteriormente estabelecidas pela Lei n.º 033/2006 [1].  \n\nEm resumo, as ZEIS são um dos tipos de Zonas Especiais previstas no ordenamento urbano, focadas no interesse social da comunidade. [3]\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "Zonas Especiais de Interesse Social (ZEIS) são áreas urbanas demarcadas por lei, previstas nos Anexos XIII e XIV do plano municipal, destinadas a atender demandas de interesse social da população — como habitação, infraestrutura e serviços básicos — e fazem parte do conjunto de Zonas Especiais previstas no ordenamento urbano [3].  \n\nExemplos de sua criação podem ser encontrados na legislação municipal, como a ZEIS 2 descrita no Art. 54, que foi instituída por meio de anexo específico da lei e revogou as ZEIS 2 anteriores [1].  \n\nPortanto, ZEIS são zonas especiais voltadas ao interesse social, formalmente delimitadas e regulamentadas pelos dispositivos legais do plano de desenvolvimento urbano.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "ZEIS",
         "habitação",
@@ -80,8 +80,8 @@
       "difficulty": "easy",
       "question_type": "factual",
       "context_chunks_count": 3,
-      "latency": 1.199,
-      "memory_usage": 45.21484375,
+      "latency": 1.219,
+      "memory_usage": 45.5703125,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
@@ -91,7 +91,7 @@
     },
     {
       "question": "Art. 180",
-      "answer": "O Art. 180 estabelece os principais objetivos da política de fiscalização e financiamento do município:\n\n1. **Incrementar as estratégias e instrumentos de fiscalização** das ações e posturas relacionadas a questões urbanas, territoriais, ambientais e de saúde【1】.  \n2. **Ampliar a capacidade de investimento** do município para o financiamento das políticas urbanas e territoriais【2】.  \n3. **Promover a gestão dos imóveis e terrenos** públicos e privados do município【3】.  \n\nAlém desses, o artigo também prevê:\n\n- Utilizar incentivos e benefícios fiscais e financeiros como recurso estratégico para direcionar o desenvolvimento econômico e social de Campina Grande.  \n- Implementar melhorias na arrecadação de receitas próprias, reduzindo a dependência de transferências governamentais e incrementando receitas de transferências obrigatórias e voluntárias.  \n- Promover alternativas de financiamento e melhorar a aplicação dos gastos públicos.  \n\nTodas essas diretrizes visam fortalecer a capacidade fiscal e de gestão do município, alinhando‑a ao desenvolvimento sustentável e à autonomia financeira.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "O Art. 180 enumera os objetivos da política de fiscalização e financiamento do município, conforme segue [1]:\n\n- **Incrementar as estratégias e instrumentos de fiscalização** das ações e posturas relacionadas às questões urbanas, territoriais, ambientais e de saúde [1];\n- **Ampliar a capacidade de investimento** do município para o financiamento das políticas urbanas e territoriais [1];\n- **Promover a gestão dos imóveis e terrenos** públicos e privados do município [1];\n- **Utilizar incentivos e benefícios fiscais e financeiros** como recurso estratégico para direcionar o desenvolvimento econômico e social de Campina Grande [1];\n- **Implementar melhorias na arrecadação de receitas próprias**, reduzindo a dependência de transferências governamentais e incrementando receitas de transferências obrigatórias e voluntárias [1];\n- **Promover alternativas de financiamento** e melhorar a aplicação dos gastos públicos [1].\n\n*Observação:* Todas as informações acima estão contidas exclusivamente no trecho da **Fonte 1** fornecido. Não há outras fontes no contexto para gerar citações adicionais.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "artigo",
         "legislação"
@@ -99,8 +99,8 @@
       "difficulty": "easy",
       "question_type": "factual",
       "context_chunks_count": 1,
-      "latency": 1.239,
-      "memory_usage": 2.29296875,
+      "latency": 1.63,
+      "memory_usage": 2.40625,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
@@ -110,7 +110,7 @@
     },
     {
       "question": "Olá, como você pode me ajudar?",
-      "answer": "Posso auxiliá‑lo(a) fornecendo explicações e esclarecimentos sobre os temas abordados nos documentos citados, como:\n\n* O objetivo da Macrozona Urbana de valorizar, conservar, adequar, qualificar e organizar o espaço edificado da cidade [1];  \n* Os objetivos da Política Setorial de Educação, que incluem promover igualdade de acesso, garantir a liberdade de aprender e ensinar, manter a qualidade do ensino, incentivar o respeito à diversidade e valorizar os profissionais da educação [2];  \n* A definição de “incomodidade” como desacordo de uso ou atividade que gera reação adversa na vizinhança, afetando estruturas físicas e vivências sociais [3].\n\nCaso precise de detalhes específicos sobre algum desses pontos ou de como eles se aplicam a situações concretas, basta indicar o tema que deseja aprofundar. Se a sua dúvida for sobre outro assunto que não esteja presente no contexto, informarei que não há informação suficiente para responder.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "Olá! Posso auxiliá‑lo(a) fornecendo informações precisas sobre os temas abordados nos documentos citados:\n\n- Sobre a **Macrozona Urbana**, explico seus objetivos de valorizar, conservar, adequar, qualificar e organizar o espaço edificado da cidade, respeitando as diferentes formas de uso e ocupação do solo [1].\n- Sobre a **Política Setorial de Educação**, detalho seus objetivos, como promover igualdade de condições de acesso e permanência na escola, garantir a liberdade de aprender, ensinar, pesquisar e divulgar saberes, manter a qualidade do ensino, incentivar o respeito aos direitos humanos e à diversidade, e valorizar os profissionais da educação [2].\n- Sobre o conceito de **incomodidade**, descrevo como se define o estado de desacordo de uso ou atividade com os condicionantes locais, gerando reação adversa na vizinhança e afetando suas estruturas físicas e vivências sociais [3].\n\nCaso precise de esclarecimentos mais específicos sobre algum desses tópicos ou de como aplicá‑los a uma situação concreta, basta me informar!\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "saudação",
         "ajuda",
@@ -119,8 +119,8 @@
       "difficulty": "easy",
       "question_type": "procedural",
       "context_chunks_count": 3,
-      "latency": 1.262,
-      "memory_usage": 3.23828125,
+      "latency": 1.261,
+      "memory_usage": 2.86328125,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.76,
@@ -129,8 +129,128 @@
       }
     },
     {
+      "question": "O que estabelece o Art. 90 sobre loteamentos?",
+      "answer": "O Art. 90 dispõe que:\n\n- **Implementação de loteamentos** – prevê a criação de loteamentos de acesso controlado, bem como de condomínios horizontais unifamiliares e multifamiliares, com a possibilidade de subunidades construtivas [1].\n\n- **Critérios de aprovação** – estabelece que a aprovação desses loteamentos deve obedecer aos parâmetros urbanísticos definidos no plano diretor e na lei municipal de parcelamento, uso e ocupação do solo [2].\n\n- **Limite de testada** – determina, como parâmetro único, que a dimensão máxima da testada da quadra para a implantação de um loteamento é de 250 metros [2].\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "loteamentos",
+        "acesso controlado",
+        "condomínio"
+      ],
+      "difficulty": "easy",
+      "question_type": "factual",
+      "context_chunks_count": 2,
+      "latency": 1.42,
+      "memory_usage": 1.59375,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999,
+        "context_precision": 1.0,
+        "context_recall": 0.6666666666666666
+      }
+    },
+    {
+      "question": "Qual a área máxima para condomínios segundo o Art. 95?",
+      "answer": "A área máxima permitida para condomínios unifamiliares, multifamiliares e loteamentos de acesso controlado é **50 hectares**【1】.  \n\n(Para referência, o mesmo artigo também estabelece limites para fachadas cegas (800 m)【2】 e para a extensão de muros (500 m)【3】.)\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "área máxima",
+        "50 hectares",
+        "condomínios"
+      ],
+      "difficulty": "easy",
+      "question_type": "factual",
+      "context_chunks_count": 1,
+      "latency": 2.529,
+      "memory_usage": 1.05078125,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      }
+    },
+    {
+      "question": "O que diz o Art. 241 sobre educação?",
+      "answer": "O Art. 241 estabelece que a Política Setorial de Educação :\n\n- compreende a promoção e o incentivo à educação como responsabilidades compartilhadas entre o Estado e a família, com a colaboração da sociedade [1];\n- tem como objetivo o desenvolvimento dos indivíduos e o preparo para o exercício da cidadania [1].\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "política educacional",
+        "responsabilidades",
+        "cidadania"
+      ],
+      "difficulty": "easy",
+      "question_type": "factual",
+      "context_chunks_count": 1,
+      "latency": 2.164,
+      "memory_usage": 0.58984375,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8666666666666666,
+        "context_precision": 1.0,
+        "context_recall": 0.6666666666666666
+      }
+    },
+    {
+      "question": "Quais os objetivos da Política de Saúde no Art. 245?",
+      "answer": "A Política Setorial de Saúde, conforme o Art. 245, tem como objetivos:\n\n1. Garantir o acesso universal e equitativo a serviços de saúde de qualidade【1】.  \n2. Propiciar ações de promoção da saúde e prevenção de doenças【1】.  \n3. Fortalecer a atenção primária à saúde【1】.  \n4. Viabilizar a integralidade do cuidado e a humanização do atendimento de forma articulada e contínua, oferecendo um ambiente acolhedor e seguro nos serviços de saúde【1】.  \n5. Aprimorar políticas que visem à redução das desigualdades em saúde, focando em populações vulneráveis e em áreas com menor acesso a serviços de saúde【1】.  \n6. Garantir a gestão eficiente dos recursos financeiros, humanos e materiais, evitando desperdícios【1】.  \n7. Promover a integração com outras políticas públicas, objetivando a melhoria das condições de vida da população【1】.  \n8. Fortalecer as ações de vigilância epidemiológica, sanitária, ambiental e de saúde do trabalhador【1】.  \n9. Promover a saúde e o bem‑estar dos animais, como componente da política de saúde pública【1】.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "acesso universal",
+        "prevenção",
+        "atenção primária"
+      ],
+      "difficulty": "easy",
+      "question_type": "factual",
+      "context_chunks_count": 1,
+      "latency": 2.552,
+      "memory_usage": 0.59375,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "O que estabelece o Art. 247 sobre assistência social?",
+      "answer": "O Art. 247 estabelece que a Política Setorial de Assistência Social deve:\n\n1. **Promover a proteção social** e atender às necessidades básicas da população, com ênfase nas pessoas em situação de vulnerabilidade ou risco social【1】.  \n2. **Contribuir para a redução das desigualdades** e garantir a proteção social de todos os cidadãos【1】.  \n\nEssas diretrizes orientam a atuação da assistência social no país, focando na inclusão e na garantia de direitos básicos.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "proteção social",
+        "vulnerabilidade",
+        "risco social"
+      ],
+      "difficulty": "easy",
+      "question_type": "factual",
+      "context_chunks_count": 1,
+      "latency": 0.887,
+      "memory_usage": 0.25,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "O que são níveis de incômodos segundo o Art. 99?",
+      "answer": "De acordo com o Art. 99, incômodo é “o estado de desacordo de uso ou atividade com os condicionantes locais, causando reação adversa sobre a vizinhança, observando suas estruturas físicas e vivências sociais”【1】.  \n\nEntretanto, o contexto apresentado não traz informação sobre **níveis de incômodos** – ou seja, não há definição ou classificação desses níveis no trecho fornecido. Portanto, não é possível responder à pergunta com base apenas no material disponibilizado.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "incomodidade",
+        "uso",
+        "vizinhança"
+      ],
+      "difficulty": "easy",
+      "question_type": "factual",
+      "context_chunks_count": 1,
+      "latency": 1.038,
+      "memory_usage": -1.546875,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+      }
+    },
+    {
       "question": "Quais são as diretrizes para participação social mencionadas no Art. 178?",
-      "answer": "As diretrizes para participação social previstas no Art. 178 são:\n\n1. **Obrigatoriedade de estudo técnico** antes de qualquer alteração do Plano Diretor, da sua legislação acessória ou de outras matérias de interesse urbano e territorial. [1]  \n2. **Atuação integrada entre os Conselhos Municipais**, para que debatam coletivamente pautas relacionadas à política de desenvolvimento urbano. [2]  \n3. **Fomento e manutenção dos Conselhos de Bairro**, permitindo que contribuam sobre questões específicas dos bairros e distritos, assegurando ampla representação das instituições e movimentos comunitários. [3]  \n4. **Parcerias com o setor produtivo, a sociedade civil e a academia**, visando o desenvolvimento de atividades sobre questões urbanas e territoriais nos bairros e distritos de Campina Grande. [1]\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "As diretrizes para participação social previstas no Art. 178 são:\n\n1. **Obrigatoriedade de estudo técnico** – todo processo de alteração do Plano Diretor, da sua legislação acessória e de outras matérias de interesse urbano e territorial deve ser precedido de estudo técnico. [1]\n\n2. **Atuação integrada entre os Conselhos Municipais** – os Conselhos devem debater coletivamente as pautas relacionadas à política de desenvolvimento urbano. [2]\n\n3. **Fomento à manutenção dos Conselhos de Bairro e parcerias** – garantir a atuação dos Conselhos de Bairro nos bairros e distritos, assegurando ampla representação da comunidade, e estabelecer parcerias com o setor produtivo, a sociedade civil e a academia para desenvolver atividades sobre questões urbanas e territoriais. [3]\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "participação social",
         "controle social",
@@ -139,8 +259,8 @@
       "difficulty": "medium",
       "question_type": "procedural",
       "context_chunks_count": 1,
-      "latency": 1.826,
-      "memory_usage": 1.734375,
+      "latency": 1.439,
+      "memory_usage": 0.97265625,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
@@ -150,7 +270,7 @@
     },
     {
       "question": "Quais são os instrumentos de política urbana previstos?",
-      "answer": "Com base nas informações apresentadas nos trechos citados, o texto descreve os **objetivos do Sistema de Planejamento Urbano e Rural**, a definição de **operação urbana consorciada** e os **princípios que regem a Política de Desenvolvimento Urbano** de Campina Grande, mas **não enumera explicitamente os instrumentos de política urbana** que deveriam ser adotados [1][2][3].\n\nPortanto, o contexto fornecido não contém informação suficiente para listar os instrumentos de política urbana previstos.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "O contexto apresentado não traz uma relação explícita dos **instrumentos de política urbana**. Ele descreve apenas:\n\n* os objetivos do Sistema de Planejamento Urbano e Rural e Gestão Democrática ([1]);  \n* a definição de operação urbana consorciada ([2]);  \n* os princípios que regem a Política de Desenvolvimento Urbano ([3]).\n\nComo nenhum desses trechos enumera ou detalha os instrumentos de política urbana, não é possível responder à pergunta com base nas informações fornecidas.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "instrumentos",
         "política urbana",
@@ -159,8 +279,8 @@
       "difficulty": "medium",
       "question_type": "procedural",
       "context_chunks_count": 3,
-      "latency": 0.984,
-      "memory_usage": 2.55078125,
+      "latency": 1.183,
+      "memory_usage": 1.1484375,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
@@ -170,7 +290,7 @@
     },
     {
       "question": "Quais são as competências do Conselho da Cidade?",
-      "answer": "Com base nas fontes apresentadas, não há menção às competências específicas do **Conselho da Cidade**.  \n\n- O **Art. 25** da Fonte 1 trata da finalidade da Macrozona Urbana, sem abordar o Conselho da Cidade.  \n- A Fonte 2 traz definições de direitos, diretrizes, elementos de urbanização e outros conceitos, mas não descreve atribuições do Conselho da Cidade.  \n- O **Art. 171** da Fonte 3 enumera os objetivos da Política de Gestão da Cidade, sem especificar as competências do Conselho da Cidade.  \n\nPortanto, o contexto fornecido não contém informação suficiente para responder à pergunta.  \n\n[Citações: [1], [2], [3]]\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "Com base no material apresentado, não há menção às competências específicas do **Conselho da Cidade**.  \n\n- O **Art. 25** da Fonte 1 trata da finalidade da Macrozona Urbana, sem abordar o Conselho da Cidade.  \n- A Fonte 2 traz definições de direitos, diretrizes, elementos de urbanização e outros conceitos, mas também não descreve as atribuições do Conselho da Cidade.  \n- A Fonte 3 (Art. 171) enumera os objetivos da Política de Gestão da Cidade, que são promover gestão integrada, estabelecer planejamento estratégico de longo prazo e formular estratégias setoriais, sem especificar as competências do Conselho da Cidade.  \n\nPortanto, o contexto fornecido não contém informação suficiente para responder à pergunta sobre as competências do Conselho da Cidade.  \n\n**Referências:** [1], [2], [3]\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "conselho",
         "competências",
@@ -179,8 +299,8 @@
       "difficulty": "medium",
       "question_type": "factual",
       "context_chunks_count": 3,
-      "latency": 1.122,
-      "memory_usage": 1.1640625,
+      "latency": 8.578,
+      "memory_usage": 1.34375,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
@@ -190,7 +310,7 @@
     },
     {
       "question": "Quais são as diretrizes para áreas verdes urbanas?",
-      "answer": "Com base no material apresentado, não há menção específica a diretrizes para áreas verdes urbanas.  \n\n- O Art. 135 descreve a operação urbana consorciada, mas trata de intervenções gerais de mobilidade, melhorias sociais e valorização ambiental, sem detalhar normas para áreas verdes [1].  \n- O Art. 26 traz diretrizes da Macrozona Urbana relacionadas a parâmetros de desenvolvimento, adensamento, infraestrutura, mobilidade, saneamento e preservação do patrimônio cultural, mas não aborda diretamente a gestão ou criação de áreas verdes [2].  \n- O Art. 5 enumera os princípios da Política de Desenvolvimento Urbano (função social da cidade, sustentabilidade, etc.) e os usos da propriedade urbana, sem especificar regras para áreas verdes [3].\n\nPortanto, o contexto fornecido não contém informações suficientes para identificar diretrizes específicas para áreas verdes urbanas.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "Com base no material apresentado, não há menção explícita a diretrizes específicas para áreas verdes urbanas.  \n\n- O Art. 135 descreve a operação urbana consorciada, mas trata apenas de intervenções coordenadas para transformações urbanísticas, mobilidade, melhorias sociais e valorização ambiental, sem detalhar normas para áreas verdes [1].  \n- O Art. 26 estabelece diretrizes para a Macrozona Urbana, focando em parâmetros de desenvolvimento, adensamento, infraestrutura, mobilidade, saneamento e preservação do patrimônio cultural, mas não aborda diretamente a gestão ou criação de áreas verdes [2].  \n- O Art. 5 enumera princípios da Política de Desenvolvimento Urbano (função social da cidade, sustentabilidade, etc.) e, embora a sustentabilidade possa incluir áreas verdes, o texto não especifica diretrizes concretas para elas [3].\n\nPortanto, o contexto fornecido não contém informações suficientes para listar diretrizes específicas para áreas verdes urbanas.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "áreas verdes",
         "meio ambiente",
@@ -199,8 +319,8 @@
       "difficulty": "medium",
       "question_type": "procedural",
       "context_chunks_count": 3,
-      "latency": 1.324,
-      "memory_usage": 1.2265625,
+      "latency": 7.769,
+      "memory_usage": 0.6796875,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
@@ -210,7 +330,7 @@
     },
     {
       "question": "O que estabelece o plano sobre densidade populacional?",
-      "answer": "O plano estabelece a **promoção de densidades construtivas e demográficas por setor**, de modo que essas densidades sejam definidas de acordo com as características específicas de cada território. Essa promoção pode gerar restrição dos coeficientes máximos de aproveitamento, porém **nunca pode exceder o limite previsto no Plano Diretor para cada zona**【2】.  \n\nAs demais fontes apresentadas ([1] e [3]) não tratam de densidade populacional, limitando‑se a outros temas.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "O plano estabelece que a densidade populacional deve ser tratada por meio da **promoção de densidades construtivas e demográficas por setor**, levando em conta as características específicas de cada território. Essa abordagem pode gerar restrição dos coeficientes máximos de aproveitamento, porém **nunca pode ultrapassar o limite previsto no Plano Diretor para cada zona**【2】.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "densidade",
         "população",
@@ -219,8 +339,8 @@
       "difficulty": "medium",
       "question_type": "factual",
       "context_chunks_count": 3,
-      "latency": 1.473,
-      "memory_usage": 1.4765625,
+      "latency": 6.656,
+      "memory_usage": 1.29296875,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
@@ -230,7 +350,7 @@
     },
     {
       "question": "Quais são as penalidades por descumprimento das normas urbanísticas?",
-      "answer": "Com base nas fontes apresentadas, não há informação sobre quais são as penalidades aplicáveis ao descumprimento das normas urbanísticas.  \n\n- O **Art. 113** descreve os objetivos do parcelamento, edificação e utilização compulsórios, mas não menciona sanções [1].  \n- O **Art. 26** estabelece as diretrizes da Macrozona Urbana, sem tratar de penalidades [2].  \n- O **Art. 229** trata da Política Setorial de Habitação e de garantir o direito à moradia, também sem abordar punições [3].\n\nPortanto, o contexto fornecido não contém detalhes sobre as penalidades previstas para o não cumprimento das normas urbanísticas.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "O contexto apresentado não traz informações sobre as penalidades aplicáveis ao descumprimento das normas urbanísticas. As fontes citam apenas os objetivos do parcelamento compulsório, as diretrizes da macrozona urbana e a política setorial de habitação, sem mencionar sanções ou medidas punitivas [1][2][3].\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "penalidades",
         "normas",
@@ -239,8 +359,8 @@
       "difficulty": "medium",
       "question_type": "procedural",
       "context_chunks_count": 3,
-      "latency": 6.577,
-      "memory_usage": 1.36328125,
+      "latency": 6.336,
+      "memory_usage": 1.4921875,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
@@ -249,8 +369,128 @@
       }
     },
     {
+      "question": "Quais os requisitos para aprovação de loteamentos segundo o Art. 91?",
+      "answer": "De acordo com o Art. 91, o único requisito explicitamente mencionado para a aprovação de empreendimentos (incluindo loteamentos) que tenham área construída superior a 1.000 m² é a apresentação de um **projeto específico de drenagem de águas pluviais**, que deve garantir o equilíbrio do sistema de drenagem [1].  \n\nNão há outras exigências descritas no trecho fornecido; portanto, informações adicionais sobre demais requisitos para aprovação de loteamentos não constam do contexto apresentado.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "área construída",
+        "drenagem",
+        "águas pluviais"
+      ],
+      "difficulty": "medium",
+      "question_type": "procedural",
+      "context_chunks_count": 1,
+      "latency": 3.139,
+      "memory_usage": 0.625,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999,
+        "context_precision": 1.0,
+        "context_recall": 0.6666666666666666
+      }
+    },
+    {
+      "question": "Como funciona a doação de áreas institucionais no Art. 93?",
+      "answer": "A doação de áreas institucionais prevista no Art. 93 deve obedecer aos seguintes requisitos:\n\n1. **Localização e acesso** – Todas as áreas institucionais e de espaços livres ou de lazer que forem doadas ao município precisam estar situadas **fora da área fechada** do loteamento, devendo ter **acesso público** e **frente para vias públicas**【1】.  \n\n2. **Forma da contrapartida** – A contrapartida pode ser cumprida **por meio de doação de área física** (ou seja, a transferência da propriedade do terreno) **e/ou por benfeitoria de espaço público**, como a construção ou melhoria de equipamentos e infraestruturas de uso coletivo【1】.  \n\n3. **Objetivo** – Essa doação garante que o loteamento de acesso controlado ou condomínio de lotes (unifamiliares ou multifamiliares) ofereça ao município áreas destinadas a usos institucionais e de lazer, assegurando que a população tenha acesso a esses espaços de forma livre e integrada ao entorno urbano【1】.  \n\n> **Resumo:** a doação de áreas institucionais no Art. 93 consiste na transferência de terrenos localizados fora da área fechada, com acesso público e frente para vias públicas, podendo ser complementada por benfeitorias de espaço público, como forma de contrapartida ao município.【1】\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "áreas institucionais",
+        "espaços livres",
+        "acesso público"
+      ],
+      "difficulty": "medium",
+      "question_type": "procedural",
+      "context_chunks_count": 1,
+      "latency": 4.372,
+      "memory_usage": 0.1796875,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Quais os fatores considerados para análise de incomodidade no Art. 101?",
+      "answer": "Os fatores a serem observados na análise do nível de incomodidade, conforme o Art. 101, são:\n\n1. **Impacto urbanístico** – sobrecarga na capacidade de suporte da infraestrutura instalada e/ou alteração negativa da paisagem【1】.  \n2. **Poluição sonora** – geração de impacto sonoro no entorno próximo pelo uso de máquinas, utensílios ruidosos, aparelhos sonoros ou concentração de pessoas/animais【1】.  \n3. **Poluição atmosférica** – lançamento de partículas e gases provenientes do uso de combustíveis ou de material particulado acima dos níveis admissíveis【1】.  \n4. **Poluição hídrica** – efluentes líquidos incompatíveis com a rede hidrográfica ou sistema coletor de esgotos, gerando poluição das águas superficiais e subterrâneas【1】.  \n5. **Geração de resíduos sólidos** – produção, manipulação, estocagem ou depósito de resíduos sólidos com riscos ao meio ambiente e à saúde pública【1】.  \n6. **Vibração** – impactos provocados por máquinas ou equipamentos que produzam choques repetitivos ou vibração sensível, afetando propriedade, bem‑estar ou saúde pública【1】.  \n7. **Periculosidade** – atividades que apresentam risco ao meio ambiente e à saúde devido à produção, comercialização, uso ou estocagem de materiais perigosos (explosivos, GLP, inflamáveis, tóxicos, etc.)【2】.  \n8. **Geração de tráfego** – interferência no tráfego pela operação ou atração de veículos pesados, ou geração de tráfego intenso em razão do porte do estabelecimento, da concentração de pessoas e do número de vagas de estacionamento criadas【2】.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "impacto urbanístico",
+        "poluição sonora",
+        "poluição atmosférica"
+      ],
+      "difficulty": "medium",
+      "question_type": "factual",
+      "context_chunks_count": 2,
+      "latency": 9.297,
+      "memory_usage": 0.76953125,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9,
+        "context_precision": 0.5,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Como são classificados os níveis de incomodidade no Art. 102?",
+      "answer": "Os níveis de incomodidade previstos no Art. 102 são classificados da seguinte forma:\n\n- **I – Não incômodos:** corresponde ao uso residencial. [1]  \n- **II – Incômodos nível I:** uso não residencial cujo nível de incomodidade permite instalação compatível com o uso residencial nas macrozonas urbanas e compatível com uso agrossilvipastoril nas macrozonas rural e de transição, desde que atendidos os requisitos de instalação. [2]  \n- **III – Incômodos nível II:** uso não residencial cujo nível de incomodidade permite sua instalação nas proximidades do uso residencial, em eixos ou zonas determinadas pela Lei Municipal de Uso e Ocupação do Solo. [3]  \n- **IV – Incômodos nível III:** uso industrial, correlatos e quaisquer outros usos cujas atividades apresentam níveis de incomodidade e nocividade incompatíveis com o uso residencial, agrossilvipastoril, de recuperação e manejo ambiental. [3]\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "não incômodos",
+        "incômodos nível I",
+        "incômodos nível II"
+      ],
+      "difficulty": "medium",
+      "question_type": "factual",
+      "context_chunks_count": 1,
+      "latency": 7.713,
+      "memory_usage": 0.453125,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Quais as diretrizes da Política de Educação no Art. 243?",
+      "answer": "**Diretrizes da Política Setorial de Educação – Art. 243**\n\n1. **Cooperação e trabalho em equipe** entre os atores do processo educativo, visando um ambiente escolar colaborativo e solidário【1】.  \n2. **Práticas e conteúdos que promovam a consciência e responsabilidade ambiental** e o desenvolvimento sustentável da sociedade【1】.  \n3. **Alinhamento das diretrizes, metas e objetivos** das políticas educacionais nacional e estadual, garantindo coerência e integração entre os diferentes níveis de governo【1】.  \n4. **Promoção de políticas públicas de educação de qualidade** em conformidade com os Objetivos de Desenvolvimento Sustentável (ODS) da Agenda 2030 da ONU【1】.  \n5. **Programas de capacitação e treinamento para educadores** focados na prevenção da violência e no acolhimento de crianças e adolescentes em situação de vulnerabilidade【1】.  \n6. **Políticas de combate à evasão escolar**, com ações que assegurem a permanência dos estudantes e o fortalecimento de vínculos familiares e sociais【1】.  \n7. **Incentivo à complementação, retorno, início ou continuação do ensino** escolar/universitário dos cidadãos【1】.  \n8. **Desenvolvimento de programas e ações de qualificação profissional** e inserção no mercado de trabalho para a população【1】.  \n9. **Políticas de enfrentamento às disparidades de gênero** na educação, promovendo igualdade de acesso a todos os níveis de ensino e formação profissional para grupos vulneráveis【2】.  \n10. **Instalação, manutenção e uso de equipamentos e espaços esportivos, culturais, educacionais e de lazer**, objetivando a manutenção da Política Setorial de Educação【2】.  \n11. **Oferta de políticas de acesso ao esporte, lazer e cultura** para a população jovem e infantil【2】.  \n12. **Adoção de hortas comunitárias e manutenção da vegetação** nos equipamentos de educação【2】.  \n13. **Criação e instalação de novas creches no município**【2】.  \n14. **Mapeamento e monitoramento da implementação e dos resultados** das ações da Política Setorial de Educação【2】.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "cooperação",
+        "consciência ambiental",
+        "ODSs"
+      ],
+      "difficulty": "medium",
+      "question_type": "procedural",
+      "context_chunks_count": 2,
+      "latency": 9.171,
+      "memory_usage": 0.3515625,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999,
+        "context_precision": 0.5,
+        "context_recall": 0.6666666666666666
+      }
+    },
+    {
+      "question": "Como a Política de Saúde aborda a saúde animal no Art. 246?",
+      "answer": "A Política Setorial de Saúde, no Art. 246, dedica uma série de diretrizes específicas à saúde animal, conforme descrito na continuação do artigo:\n\n- **Programas educativos sobre cuidados com animais de estimação**, prevenção de doenças e manejo adequado, visando a promoção da saúde animal e humana【2†L13-L15】.  \n- **Controle de populações de animais de rua** e incentivo a práticas responsáveis de criação【2†L15-L16】.  \n- **Vigilância sanitária e controle de doenças animais**, reforçando a prevenção de enfermidades que podem afetar tanto animais quanto pessoas【2†L16-L17】.  \n- **Desenvolvimento de programas de controle e prevenção de zoonoses**, integrando ações de saúde pública e animal【2†L17-L18】.  \n- **Políticas de controle de vetores** como medida crucial para impedir a disseminação de doenças transmitidas por animais【2†L18-L19】.  \n- **Fortalecimento das atividades de vigilância, prevenção e controle de zoonoses** pelo Centro de Controle de Zoonoses (CCZ)【2†L19-L20】.  \n- **Inspeções de produtos de origem animal** para garantir a segurança alimentar【2†L20-L21】.\n\nEssas disposições mostram que a política de saúde incorpora a saúde animal por meio de educação, controle populacional, vigilância sanitária, prevenção de zoonoses e garantia da qualidade dos alimentos de origem animal. (Não há menção a saúde animal nas diretrizes gerais do Art. 246 apresentadas na Fonte 1.)\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "saúde animal",
+        "controle de zoonoses",
+        "vigilância sanitária"
+      ],
+      "difficulty": "medium",
+      "question_type": "procedural",
+      "context_chunks_count": 3,
+      "latency": 11.567,
+      "memory_usage": 0.58203125,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999,
+        "context_precision": 0.6666666666666666,
+        "context_recall": 1.0
+      }
+    },
+    {
       "question": "Como o plano diretor integra sustentabilidade e desenvolvimento urbano?",
-      "answer": "O Plano Diretor integra sustentabilidade e desenvolvimento urbano ao combinar, simultaneamente, as exigências de ordenamento urbano com as diretrizes de proteção ambiental:\n\n* **Integração com políticas de desenvolvimento urbano** – O plano deve observar os planos e leis nacionais, estaduais e municipais que tratam das políticas de desenvolvimento urbano, garantindo que o crescimento da cidade esteja alinhado às normas superiores [1].\n\n* **Incorporação de diretrizes de sustentabilidade** – Ele incorpora as diretrizes da Política de Sustentabilidade Ambiental, como a implementação de medidas para reduzir ilhas de calor (coberturas verdes, jardins verticais, telhados frios), a regulação equilibrada do uso e ocupação do solo, a promoção de mobilidade urbana sustentável, o reaproveitamento de águas pluviais e a educação ambiental [3].\n\n* **Instrumentos de uso do solo que favorecem a sustentabilidade** – O exercício do Direito de Superfície, autorizado ao Poder Executivo Municipal, permite a ocupação de áreas particulares onde faltam equipamentos públicos ou a remoção transitória de moradores de núcleos habitacionais de baixa renda, otimizando a utilização do solo e a infraestrutura urbana de forma mais eficiente e socialmente justa [2].\n\nAssim, o Plano Diretor articula o desenvolvimento urbano com práticas e normas ambientais, buscando uma cidade mais compacta, resiliente e de baixo carbono.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "O Plano Diretor integra sustentabilidade e desenvolvimento urbano ao combinar, simultaneamente, diretrizes de ordenamento territorial com políticas ambientais específicas:\n\n1. **Alinhamento com políticas de desenvolvimento urbano** – O plano deve observar os planos e leis nacionais, estaduais e municipais que tratam das políticas de desenvolvimento urbano, garantindo coerência entre os diferentes níveis de planejamento [1].\n\n2. **Incorporação de diretrizes de sustentabilidade** – Ele incorpora as diretrizes da Política de Sustentabilidade Ambiental, que incluem:\n   - medidas para evitar ou reduzir ilhas de calor (ex.: coberturas verdes, telhados frios) [3];\n   - estímulo à plantação de árvores, jardins de chuva e outras infraestruturas verdes [3];\n   - regulação equilibrada do uso e ocupação do solo, visando desenvolvimento de baixo carbono e cidades compactas e resilientes [3];\n   - incentivos ao reaproveitamento de águas pluviais, mobilidade urbana sustentável e preservação de áreas verdes [3];\n   - promoção da educação ambiental e da conscientização pública [3].\n\n3. **Instrumentos de uso do solo que favorecem a sustentabilidade** – O exercício do Direito de Superfície, autorizado ao Poder Executivo Municipal, pode ser utilizado em áreas particulares carentes de equipamentos públicos ou de forma transitória para realocação de moradores de baixa renda durante obras de urbanização, contribuindo para uma ocupação mais eficiente e socialmente equilibrada do território [2].\n\nAssim, o Plano Diretor articula o desenvolvimento urbano com ações concretas de mitigação ambiental e uso racional do solo, assegurando que o crescimento da cidade ocorra de forma sustentável e integrada.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "sustentabilidade",
         "desenvolvimento urbano",
@@ -259,8 +499,8 @@
       "difficulty": "hard",
       "question_type": "conceptual",
       "context_chunks_count": 3,
-      "latency": 7.965,
-      "memory_usage": 1.703125,
+      "latency": 11.311,
+      "memory_usage": 1.25390625,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
@@ -270,7 +510,7 @@
     },
     {
       "question": "Como funciona o licenciamento ambiental no contexto urbano?",
-      "answer": "O contexto apresentado não traz detalhes específicos sobre o procedimento de licenciamento ambiental urbano, como etapas, requisitos ou órgãos responsáveis.  \n\nO que se pode observar é que o **sistema de gestão e os programas da Política Municipal do Meio Ambiente** devem estar definidos em lei específica ([1]), e que o **macrozoneamento** do município estabelece áreas homogêneas que orientam os objetivos de desenvolvimento urbano e a aplicação de instrumentos urbanísticos e ambientais ([2]). Além disso, o planejamento urbano considera diferentes **sistemas ambientais** – áreas protegidas, saneamento, mobilidade, equipamentos urbanos e polos econômicos sustentáveis – que são articulados para definir a organização do território ([3]).\n\nPortanto, embora o texto indique que a gestão ambiental e o planejamento territorial são estruturados por lei e por macrozonas, **não há informação suficiente no material fornecido para descrever como funciona o licenciamento ambiental propriamente dito**. Para obter detalhes sobre o licenciamento, seria necessário consultar a legislação específica que regulamenta esse processo.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "O contexto apresentado não traz detalhes específicos sobre o procedimento de licenciamento ambiental urbano, como etapas, requisitos ou órgãos responsáveis.  \n\nO que se pode observar é que o licenciamento deve estar inserido dentro do **sistema de gestão e dos programas da Política Municipal do Meio Ambiente**, que precisam ser definidos em lei específica ([1]). Além disso, o **macrozoneamento** estabelece áreas homogêneas que orientam os objetivos de desenvolvimento urbano e a aplicação de instrumentos urbanísticos e ambientais ([2]), e o licenciamento provavelmente considerará os **sistemas urbanos e ambientais** descritos (áreas protegidas, saneamento, mobilidade, equipamentos urbanos e polos econômicos) ([3]).\n\nPortanto, com base apenas nas informações fornecidas, não há descrição do funcionamento concreto do licenciamento ambiental no contexto urbano. Para obter detalhes operacionais, seria necessário consultar a legislação específica que regulamenta o licenciamento ambiental no município.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "licenciamento",
         "meio ambiente",
@@ -279,10 +519,10 @@
       "difficulty": "hard",
       "question_type": "procedural",
       "context_chunks_count": 3,
-      "latency": 7.361,
-      "memory_usage": 0.84765625,
+      "latency": 8.557,
+      "memory_usage": 0.75390625,
       "metrics": {
-        "faithfulness": 1.0,
+        "faithfulness": 0.8,
         "answer_relevancy": 0.9999999999999999,
         "context_precision": 0.6666666666666666,
         "context_recall": 0.3333333333333333
@@ -290,7 +530,7 @@
     },
     {
       "question": "Como o transporte público se integra ao planejamento urbano?",
-      "answer": "O transporte público é tratado como um dos pilares da Política Setorial de Mobilidade Urbana, devendo ser planejado em conjunto com o uso do solo, a infraestrutura para pedestres e ciclistas e a gestão do tráfego, a fim de garantir acessibilidade e eficiência nos deslocamentos dentro da cidade【1】.  \n\nEssa integração se reforça pela adoção de soluções científicas, tecnológicas e de inovação, como aplicativos de mobilidade e plataformas de dados integrados, que otimizam o trânsito e aprimoram a operação dos sistemas de transporte coletivo【2】.  \n\nPor fim, o planejamento urbano conta com instrumentos de gestão democrática – órgãos gestores, conselhos, audiências e conferências municipais – que possibilitam a participação da sociedade na definição de políticas e projetos de transporte público, assegurando que as decisões reflitam as necessidades da população【3】.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "O transporte público é considerado um elemento central da Política Setorial de Mobilidade Urbana e, portanto, está diretamente ligado ao planejamento urbano da cidade [1]. Essa integração se dá por meio da:\n\n* **Coordenação com o planejamento urbano** – o transporte público é contemplado junto a outros modos de deslocamento (bicicletas, pedestres) e à gestão do tráfego, visando garantir acessibilidade e eficiência no deslocamento de pessoas e bens dentro do município [1].\n\n* **Uso de soluções tecnológicas e inovadoras** – a política prevê o desenvolvimento e a implementação de tecnologias que otimizam o trânsito e os sistemas de transporte público, como aplicativos de mobilidade e plataformas de dados integrados, reforçando a conexão entre o serviço de transporte e o planejamento urbano [2].\n\n* **Instrumentos de gestão democrática** – o Sistema de Planejamento Urbano e Gestão Democrática dispõe de órgãos, conferências, audiências públicas e conselhos municipais que deliberam sobre assuntos de interesse urbano, incluindo a organização e a melhoria do transporte público [3].\n\nAssim, o transporte público se integra ao planejamento urbano por meio de sua inclusão nas diretrizes de mobilidade, da adoção de tecnologias para sua otimização e da participação de estruturas de governança democrática que orientam seu desenvolvimento e sua operação.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "transporte",
         "mobilidade",
@@ -299,8 +539,8 @@
       "difficulty": "hard",
       "question_type": "conceptual",
       "context_chunks_count": 3,
-      "latency": 9.139,
-      "memory_usage": 1.6953125,
+      "latency": 8.368,
+      "memory_usage": 0.9921875,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
@@ -310,7 +550,7 @@
     },
     {
       "question": "Como são definidos os corredores de desenvolvimento?",
-      "answer": "Com base nas fontes apresentadas não há definição explícita de “corredores de desenvolvimento”.  \n\n- O Art. 99 da [FONTE_1] trata apenas de “incomodidade” relacionada ao uso do solo e não menciona corredores de desenvolvimento.  \n- O Art. 80 da [FONTE_2] descreve os sistemas urbanos e ambientais (áreas verdes, saneamento, mobilidade, equipamentos urbanos, polos econômicos), mas não define o que são corredores de desenvolvimento.  \n- O Art. 202 da [FONTE_3] aborda objetivos da política de sustentabilidade e os 5 R’s, sem referência a corredores de desenvolvimento.  \n\nPortanto, o contexto fornecido não contém informação suficiente para responder como são definidos os corredores de desenvolvimento.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "Com base nas informações apresentadas, o texto não traz uma definição explícita para “corredores de desenvolvimento”.  \n\n- O Art. 80 descreve os territórios a partir da articulação de sistemas urbanos e ambientais (áreas protegidas, saneamento, mobilidade, equipamentos urbanos e polos/centralidades) [2], mas não especifica o que são ou como se configuram os corredores de desenvolvimento.  \n- As demais fontes tratam de incomodidade ([1]) e de objetivos da política de sustentabilidade e dos 5 R’s ([3]), sem abordar a definição solicitada.\n\nPortanto, o contexto fornecido não contém informação suficiente para definir os corredores de desenvolvimento.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "corredores",
         "desenvolvimento",
@@ -319,8 +559,8 @@
       "difficulty": "hard",
       "question_type": "conceptual",
       "context_chunks_count": 3,
-      "latency": 8.301,
-      "memory_usage": 0.5,
+      "latency": 8.63,
+      "memory_usage": 0.30078125,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
@@ -330,7 +570,7 @@
     },
     {
       "question": "Como o plano diretor aborda a questão da gentrificação?",
-      "answer": "Com base nas fontes apresentadas não há menção explícita à gentrificação no plano diretor.  \n\n- O Art. 264 trata apenas da contagem de prazos a partir do início da vigência da lei, sem abordar questões de transformação urbana ou social [1].  \n- O Art. 261 descreve os elementos que os planos, programas e projetos devem conter (objetivos, diretrizes, metas, ações e fontes de financiamento), mas não especifica como lidar com processos de gentrificação [2].  \n- O Art. 3 estabelece que o plano diretor deve observar as normas nacionais, estaduais e municipais de desenvolvimento urbano, porém não indica diretrizes específicas para a gentrificação [3].\n\nPortanto, o contexto fornecido não contém informações suficientes para responder como o plano diretor aborda a gentrificação.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "answer": "Com base nas fontes apresentadas, não há menção explícita à gentrificação no plano diretor.  \n\n- O Art. 264 trata apenas da contagem de prazos a partir do início da vigência da lei, sem abordar questões de uso do solo ou impactos sociais [1].  \n- O Art. 261 descreve os elementos que os planos, programas e projetos devem conter (objetivos, diretrizes, metas, ações e fontes de financiamento), mas não especifica políticas ou medidas relacionadas à gentrificação [2].  \n- O Art. 3º estabelece que o plano diretor deve observar normas nacionais, estaduais e municipais de desenvolvimento urbano, porém não indica como essas normas tratariam da gentrificação [3].\n\nPortanto, o contexto fornecido não contém informações suficientes para responder como o plano diretor aborda a gentrificação.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
       "expected_topics": [
         "gentrificação",
         "habitação",
@@ -339,13 +579,33 @@
       "difficulty": "hard",
       "question_type": "conceptual",
       "context_chunks_count": 3,
-      "latency": 5.195,
-      "memory_usage": 0.84375,
+      "latency": 4.331,
+      "memory_usage": 0.7578125,
       "metrics": {
         "faithfulness": 1.0,
         "answer_relevancy": 0.9999999999999999,
         "context_precision": 0.0,
         "context_recall": 0.0
+      }
+    },
+    {
+      "question": "Qual a relação entre políticas setoriais de educação, saúde e assistência social na promoção do desenvolvimento urbano sustentável?",
+      "answer": "A relação entre as políticas setoriais de educação e o desenvolvimento urbano sustentável está explicitada no **Art. 243** da Política Setorial de Educação, que prevê a integração de diretrizes educacionais com objetivos de sustentabilidade, cooperação entre atores e combate à evasão escolar, entre outros [1].  \n\nEntretanto, o contexto apresentado **não contém informações sobre políticas setoriais de saúde ou de assistência social**, nem sobre como essas áreas se articulam com a educação para promover o desenvolvimento urbano sustentável.  \n\nPortanto, com base apenas nas fontes fornecidas, podemos afirmar que:\n\n- A política educacional busca contribuir para a sustentabilidade urbana por meio de práticas ambientais, capacitação de educadores e fortalecimento de vínculos comunitários [1].\n- Não há dados nas fontes [2] e [3] que descrevam políticas de saúde ou assistência social nem a sua inter-relação com a educação no contexto do desenvolvimento urbano sustentável.  \n\nAssim, a resposta completa sobre a relação entre educação, saúde e assistência social no âmbito do desenvolvimento urbano sustentável não pode ser elaborada a partir do material disponibilizado.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n[2] Plano-Diretor-Lei-Complementar-no-213-2025\n[3] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "expected_topics": [
+        "políticas integradas",
+        "desenvolvimento sustentável",
+        "intersetorialidade"
+      ],
+      "difficulty": "hard",
+      "question_type": "conceptual",
+      "context_chunks_count": 3,
+      "latency": 8.685,
+      "memory_usage": 0.7421875,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999,
+        "context_precision": 0.3333333333333333,
+        "context_recall": 0.3333333333333333
       }
     }
   ]

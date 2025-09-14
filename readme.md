@@ -142,6 +142,17 @@ Abrir: `http://localhost:8501`
 python src/main.py
 ```
 
+### Docker (Alternativa)
+```bash
+# Construir a imagem
+docker build -t assistente-plano-diretor .
+
+# Executar o container
+docker run -p 8501:8501 --env-file .env assistente-plano-diretor
+```
+
+Abrir: `http://localhost:8501`
+
 ### Exemplos de Pergunta e Resposta
 
 ```

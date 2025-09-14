@@ -1,7 +1,7 @@
 # Relatório de Avaliação - Sistema RAG Educacional
 ## Plano Diretor de Campina Grande
 
-**Data da Avaliação:** 14/09/2025 00:27  
+**Data da Avaliação:** 14/09/2025 20:51  
 **Método:** Implementação manual de métricas estilo RAGAS/Giskard
 
 ---
@@ -9,17 +9,17 @@
 ## Resumo Executivo
 
 ### Performance Geral
-- **Total de perguntas testadas:** 15
-- **Respostas bem-sucedidas:** 15/15 (100.0%)
-- **Latência média:** 3.895s
-- **Uso médio de memória:** 15.56MB  
-- **Chunks recuperados por pergunta:** 2.7
+- **Total de perguntas testadas:** 28
+- **Respostas bem-sucedidas:** 28/28 (100.0%)
+- **Latência média:** 5.149s
+- **Uso médio de memória:** 4.67MB  
+- **Chunks recuperados por pergunta:** 2.1
 
 ### Métricas de Qualidade (escala 0.0 - 1.0)
-- **Faithfulness (Fidelidade):** 1.000
-- **Answer Relevancy (Relevância):** 0.971
-- **Context Precision (Precisão do Contexto):** 0.489
-- **Context Recall (Recall do Contexto):** 0.467
+- **Faithfulness (Fidelidade):** 0.993
+- **Answer Relevancy (Relevância):** 0.976
+- **Context Precision (Precisão do Contexto):** 0.619
+- **Context Recall (Recall do Contexto):** 0.607
 
 ---
 
@@ -32,10 +32,10 @@
 - **Context Recall > 0.6:** Cobertura adequada dos tópicos
 
 ### Avaliação dos Resultados
-- **Faithfulness (1.000):** Excelente
-- **Answer Relevancy (0.971):** Excelente
-- **Context Precision (0.489):** Regular
-- **Context Recall (0.467):** Regular
+- **Faithfulness (0.993):** Excelente
+- **Answer Relevancy (0.976):** Excelente
+- **Context Precision (0.619):** Bom
+- **Context Recall (0.607):** Bom
 
 ---
 
@@ -43,29 +43,29 @@
 
 ### Por Dificuldade da Pergunta
 
-**Easy** (4 perguntas):
+**Easy** (10 perguntas):
 - Fidelidade: 1.000
-- Relevância: 0.890
+- Relevância: 0.943
 
-**Medium** (6 perguntas):
+**Medium** (12 perguntas):
 - Fidelidade: 1.000
-- Relevância: 1.000
+- Relevância: 0.992
 
-**Hard** (5 perguntas):
-- Fidelidade: 1.000
+**Hard** (6 perguntas):
+- Fidelidade: 0.967
 - Relevância: 1.000
 
 ### Por Tipo de Pergunta
 
-**Factual** (5 perguntas):
+**Factual** (13 perguntas):
 - Fidelidade: 1.000  
-- Relevância: 0.960
+- Relevância: 0.967
 
-**Procedural** (6 perguntas):
-- Fidelidade: 1.000  
-- Relevância: 0.960
+**Procedural** (10 perguntas):
+- Fidelidade: 0.980  
+- Relevância: 0.976
 
-**Conceptual** (4 perguntas):
+**Conceptual** (5 perguntas):
 - Fidelidade: 1.000  
 - Relevância: 1.000
 
@@ -121,12 +121,12 @@ Cada métrica é avaliada em uma escala de 0.0 a 1.0:
 ## Conclusões
 
 ### Avaliação Geral
-O sistema RAG educacional apresenta desempenho **bom** com pontuação média de **0.732**.
+O sistema RAG educacional apresenta desempenho **bom** com pontuação média de **0.799**.
 
 ### Pontos Fortes
 - Taxa de sucesso de 100.0% nas consultas
-- Latência média baixa (3.895s)
-- Recuperação eficiente de contexto (2.7 chunks/pergunta)
+- Latência média baixa (5.149s)
+- Recuperação eficiente de contexto (2.1 chunks/pergunta)
 
 ### Áreas de Melhoria
 ---

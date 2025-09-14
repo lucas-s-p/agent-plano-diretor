@@ -2,7 +2,7 @@ import time
 import psutil
 from typing import List, Dict, Any
 
-from test_cases import TEST_CASES
+from tests.test_cases import TEST_CASES
 from metrics import RAGMetrics
 from report_generator import ReportGenerator
 

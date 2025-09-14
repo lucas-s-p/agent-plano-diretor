@@ -14,6 +14,7 @@ pypdf>=4.0.1
 # LLM integration
 groq>=0.4.2
 requests>=2.31.0
+langchain-huggingface>=0.0.10
 
 # Evaluation
 ragas>=0.1.1
