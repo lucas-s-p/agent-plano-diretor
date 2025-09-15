@@ -18,8 +18,6 @@
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Agentes Especializados](#-agentes-especializados)
 - [Avaliação](#-avaliação)
-- [Limitações](#-limitações)
-- [Contribuição](#-contribuição)
 - [Licença](#-licença)
 
 ---
@@ -30,12 +28,13 @@ Este projeto implementa um assistente inteligente especializado na consulta ao *
 
 O sistema foi desenvolvido como prova de conceito para democratizar o acesso à legislação urbana, permitindo que cidadãos, técnicos e gestores públicos obtenham informações precisas e citadas sobre diretrizes de desenvolvimento urbano.
 
-### 🎓 Contexto Acadêmico
-**Projeto Final - Disciplina de LLM**  
-**Universidade: Universidade Federal de Campina Grande (UFCG)**
-**Autor: Lucas de Sousa Pereira**  
-**Orientador: Leandro Balby**  
-**Ano: 2025**
+### 🎓 Contexto Acadêmico  
+
+**Projeto Final — Disciplina de LLM**  
+**Universidade:** Universidade Federal de Campina Grande (UFCG)  
+**Autor:** Lucas de Sousa Pereira  
+**Orientador:** Prof. Leandro Balby  
+**Ano:** 2025  
 
 ---
 
