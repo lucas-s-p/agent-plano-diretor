@@ -1,4 +1,4 @@
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Tuple
 from langchain_core.documents import Document
 
 class AnswererAgent:
@@ -24,14 +24,30 @@ class AnswererAgent:
             "next_agent": "self_check"
         }
     
-    def _build_context_with_citations(self, chunks: List[Document]) -> tuple[str, List[str]]:
+    def _build_context_with_citations(self, chunks: List[Document]) -> Tuple[str, List[str]]:
         context_parts = []
         citations = []
+        source_to_citation = {}  # Mapeia fonte para número da citação
+        citation_counter = 1
         
         for i, doc in enumerate(chunks, 1):
             source = self._extract_source(doc.metadata, i)
-            context_parts.append(f"[FONTE_{i}] {doc.page_content}")
-            citations.append(f"[{i}] {source}")
+            
+            # Se ainda não viu essa fonte, cria nova citação
+            if source not in source_to_citation:
+                source_to_citation[source] = citation_counter
+                
+                # Adiciona informação de página se disponível
+                page_info = ""
+                if 'page' in doc.metadata:
+                    page_info = f", p. {doc.metadata['page']}"
+                
+                citations.append(f"[{citation_counter}] {source}{page_info}")
+                citation_counter += 1
+            
+            # Usa o número da citação já existente para essa fonte
+            citation_num = source_to_citation[source]
+            context_parts.append(f"[FONTE_{citation_num}] {doc.page_content}")
         
         return "\n\n".join(context_parts), citations
     
@@ -55,7 +71,18 @@ class AnswererAgent:
         - Use citações [1], [2], [3] para cada afirmação importante
         - Se o contexto não contém informação suficiente, seja claro sobre isso
         - Mantenha a resposta objetiva e precisa
-        - Se a mensagem estiver relacionada a uma saudação pode ser respondida
+        - Se a mensagem for uma saudação ou pergunta geral, pode ser respondida sem citações
+
+        ESTRUTURA OBRIGATÓRIA DA RESPOSTA:
+        1. Desenvolva a resposta técnica completa com citações
+        2. OBRIGATORIAMENTE finalize com EXATAMENTE as palavras "Em resumo:" (não use "Em síntese", "Para resumir", ou qualquer outra variação)
+        3. Após "Em resumo:":
+        - Explique o conceito em linguagem simples e acessível
+        - Use termos do dia a dia que qualquer cidadão entenda
+        - Destaque os pontos mais importantes de forma clara
+        - Seja prático: como isso afeta a vida das pessoas
+
+        Importante: Use apenas "Em resumo:" no final, nunca outras expressões similares.
 
         Resposta com citações:
         """
