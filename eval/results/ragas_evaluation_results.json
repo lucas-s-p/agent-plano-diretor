@@ -1,0 +1,142 @@
+{
+  "timestamp": "2025-09-21T01:05:03.147057",
+  "evaluation_summary": {
+    "total_questions": 3,
+    "successful_answers": 3,
+    "success_rate": 1.0,
+    "avg_latency_seconds": 2.654,
+    "avg_memory_usage_mb": 36.77,
+    "avg_chunks_retrieved": 2.7,
+    "evaluation_method": "RAGAS oficial"
+  },
+  "ragas_metrics": {
+    "faithfulness": 0.8160282258064516,
+    "answer_relevancy": 0.43334063519100946,
+    "context_precision": 0.7777777777166666,
+    "context_recall": 0.3333333333333333
+  },
+  "ragas_evaluation": {
+    "ragas_scores": {
+      "faithfulness": {
+        "mean": 0.8160282258064516,
+        "std": 0.18075794267943346,
+        "values": [
+          0.984375,
+          0.625,
+          0.8387096774193549
+        ]
+      },
+      "context_precision": {
+        "mean": 0.7777777777166666,
+        "std": 0.38490017943569427,
+        "values": [
+          0.99999999995,
+          0.3333333333,
+          0.9999999999
+        ]
+      },
+      "context_recall": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "values": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "answer_relevancy": {
+        "mean": 0.43334063519100946,
+        "std": 0.2868783010069059,
+        "values": [
+          0.5529050073863283,
+          0.7093068817912076,
+          0.037810016395492425
+        ]
+      }
+    },
+    "success": true,
+    "error": null
+  },
+  "performance_by_difficulty": {
+    "easy": {
+      "count": 3,
+      "avg_faithfulness": 0.8160282258064516,
+      "avg_relevancy": 0.43334063519100946
+    }
+  },
+  "performance_by_type": {
+    "factual": {
+      "count": 3,
+      "avg_faithfulness": 0.8160282258064516,
+      "avg_relevancy": 0.43334063519100946
+    }
+  },
+  "detailed_results": [
+    {
+      "question": "O que diz o Art. 175 sobre cidades inteligentes?",
+      "answer": "**Resposta técnica**\n\nO Art. 175 da Lei que institui a Política de Cidade Inteligente e Governo Aberto de Campina Grande estabelece diretrizes para transformar o município em uma cidade inteligente, contemplando:\n\n1. **Digitalização dos serviços públicos** – fomentar a prestação digital de serviços como agendamento de consultas, exames, matrículas e emissão de documentos, complementando a forma presencial [1].  \n2. **Acesso aberto a informações urbanas** – disponibilizar produtos, mapas e legislações do Plano Diretor em plataforma digital [1].  \n3. **Ampliação da infraestrutura digital** – ampliar a infraestrutura tecnológica municipal para viabilizar serviços mediados por tecnologia [1].  \n4. **Planejamento tecnológico** – elaborar o Plano de Tecnologias da Cidade Inteligente, usando a tecnologia para reduzir desigualdades e problemas locais [1].  \n5. **Internet universal e de qualidade** – universalizar o acesso gratuito e de qualidade à internet, especialmente em espaços e equipamentos públicos [1].  \n6. **Ferramentas para otimização de serviços** – adotar tecnologias para melhorar iluminação pública, mobilidade urbana, trânsito, saneamento, segurança pública, entre outros [1].  \n7. **Regulação e segurança jurídica** – criar mecanismos que garantam regulação adequada e segurança jurídica para ciência, tecnologia e inovação, atraindo empresas de base tecnológica [1].  \n8. **Uso de Big Data** – fomentar a infraestrutura de Big Data para coleta, armazenamento, processamento e análise integrada de dados municipais [1].  \n9. **Metodologia BIM** – incentivar o uso da metodologia BIM no desenvolvimento de projetos e execução de obras [2].  \n10. **Inventário de bens e áreas** – realizar inventário de bens públicos, vazios urbanos, áreas verdes e institucionais [2].  \n11. **Monitoramento do uso do solo** – monitorar alterações no zoneamento, parcelamento, uso e ocupação do solo [2].  \n12. **Cadastro de propriedades rurais** – cadastrar propriedades rurais para esclarecer dúvidas sobre áreas livres para equipamentos e atividades [2].  \n13. **Gestão inteligente de dados** – assegurar a gestão eficiente e inteligente dos dados gerados pelos órgãos municipais, disponibilizando-os em base interativa georreferenciada de amplo acesso [2].  \n14. **Atlas digital do município** – elaborar e disponibilizar, via plataforma digital, o Atlas de Campina Grande com a base cartográfica do município [2].  \n15. **Aplicabilidade de investimentos em ciência e tecnologia** – melhorar a aplicação dos recursos da Política de Ciência, Tecnologia e Inovação [2].  \n16. **Ambientes favoráveis à inovação** – fomentar ambientes que favoreçam inovação, transferência e intercâmbio de tecnologias [2].  \n17. **Laboratórios de inovação cidadã** – criar laboratórios de inovação cidadã no setor público municipal [2].\n\nEssas diretrizes visam integrar tecnologia, dados e participação cidadã para tornar a gestão municipal mais eficiente, transparente e inclusiva [3].\n\n**Em resumo:** O Art. 175 define que Campina Grande deve usar\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "contexts": [
+        "Art. 175. São diretrizes da Política de Cidade Inteligente e Governo Aberto: I - fomentar a prestação digital de serviços como agendamento de consultas, \nexames, matrículas, emissão de documentos, entre outros, em complemento à \nprestação convencional/presencial; II - disponibilizar os produtos, mapas e legislações acessórias do Plano Diretor, \natravés de plataforma digital; III - ampliar a infraestrutura digital do município, a fim de viabilizar a diversificaç ão \ndos serviços mediados por tecnologia; IV - fomentar a elaboração do Plano de Tecnologias da Cidade Inteligente de \nCampina Grande, de modo a consolidar o uso das tecnologias como meio para a \nredução das desigualdades e dos problemas enfrentados pelo município; V - universalizar progressivamente o acesso à internet gratuita e de qualidade no \nterritório do município, com especial atenção aos espaços e equipamentos \npúblicos; VI - adotar ferramentas tecnológicas para a otimização de serviços municipais, \ncomo iluminação pública, mobilidade urbana e gestão do trânsito, saneamento \nbásico, segurança pública municipal, entre outros; VII - adotar mecanismos que assegurem adequada regulação e segurança \njurídica para as atividades de ciência, tecnologia e inovação, ampliando a \natratividade de empresas e serviços de base tecnológica para o município; \n\nESTADO DA PARAÍBA \nPREFEITURA MUNICIPAL DE CAMPINA GRANDE \nGABINETE DO PREFEITO VIII - fomentar o uso da infraestrutura de Big Data1 para coleta, armazenamento, \nprocessamento e análise integrada de dados e informações municipais;",
+        "Art. 175. (continuação 1)\nIX - fomentar o uso da metodologia BIM2 para o desenvolvimento de projetos e \nexecução de obras; X - realizar inventário de bens e equipamentos públicos (escolas, praças, UBS, \nCRAS, CREAS, parques, dentre outros), vazios urbanos, áreas verdes e \ninstitucionais; XI - monitorar as modificações no zoneamento, parcelamento, uso e ocupação do \nsolo de Campina Grande; XII - cadastrar propriedades rurais para dirimir dúvidas a respeito das áreas livres \npara proposição de equipamentos e atividades; XIII - assegurar a gestão eficiente e inteligente dos dados e informações gerados \npelos órgãos do município e pela prestação digital de serviços públicos ao \ncidadão, a serem disponibilizados em base interativa georreferenciada e de \namplo acesso; XIV - elaborar e disponibilizar, através de plataforma digital, o Atlas de Campina \nGrande, com a base cartográfica do município; XV - melhorar a aplicabilidade dos investimentos para a Política de Ciência, \nTecnologia e Inovação e os critérios para a destinação e uso dos recursos do \nfundo; XVI - fomentar ambientes favoráveis à inovação e às atividades de transferência \ne intercâmbio de tecnologias no Município de Campina Grande; XVII - criar laboratórios de inovação cidadã no setor público municipal. \n\nSEÇÃO III \nDA PARTICIPAÇÃO E CONTROLE SOCIAL"
+      ],
+      "ground_truth": "cidade inteligente tecnologia inovação",
+      "latency": 2.9792351722717285,
+      "memory_usage": 61.953125,
+      "context_chunks_count": 2,
+      "difficulty": "easy",
+      "question_type": "factual",
+      "expected_topics": [
+        "cidade inteligente",
+        "tecnologia",
+        "inovação"
+      ],
+      "success": true
+    },
+    {
+      "question": "O que são Zonas Especiais de Interesse Social (ZEIS)?",
+      "answer": "**Zonas Especiais de Interesse Social (ZEIS)** são áreas delimitadas pelo plano urbano municipal que têm como objetivo atender demandas sociais específicas, como habitação, infraestrutura e serviços para a população de baixa renda. No ordenamento jurídico de Campina Grande, as ZEIS são uma das categorias de Zonas Especiais previstas na lei municipal, estando formalmente demarcadas nos Anexos XIII e XIV do plano de desenvolvimento urbano [1].  \n\nA criação de uma ZEIS pode ocorrer por meio de atos legislativos específicos, como a instituição da “Zona Especial de Interesse Social 2 (ZEIS 2)”, que foi instituída no Art. 54 da mesma lei [2]. Essa categoria integra o conjunto de Zonas Especiais que inclui ainda ZEP, ZEDI, ZECTI, ZECA, entre outras, conforme listado no Art. 50 [3].  \n\nEm resumo: as ZEIS são áreas reservadas pela prefeitura para melhorar a qualidade de vida das famílias que mais precisam, garantindo moradia digna, serviços básicos e infraestrutura adequada, de modo que quem mora nessas regiões tenha acesso a condições melhores de vida no dia a dia.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "contexts": [
+        "Art. 54. Fica criada a seguinte Zona Especial de Interesse Social 2 (ZEIS 2), \nconforme ANEXO XVI desta lei: \n \nI - Luiz Gomes. \n \nParágrafo único. Ficam revogadas as ZEIS 2 especificadas na Lei n.º 033/2006. \n\nESTADO DA PARAÍBA \nPREFEITURA MUNICIPAL DE CAMPINA GRANDE \nGABINETE DO PREFEITO",
+        "Art. 73.B. Ficam criadas as seguintes zonas especiais de interesse \ncomercial ZEIC: \n \nI - ZEIC Rocha Cavalcante; \nII - ZEIC Major Veneziano; \nIII - ZEIC Malvinas-Floriano Peixoto. \n \nCAPÍTULO VII \nDA REDE DE ESTRUTURAÇÃO E TRANSFORMAÇÃO URBANA",
+        "Art. 50. As Zonas Especiais estão demarcadas conforme ANEXOS XIII e XIV \ndesta lei, compreendendo: \n \nI - Zonas Especiais de Interesse Social – ZEIS; \nII - Zonas Especiais de Preservação – ZEP; \nIII - Zonas Especiais de Desenvolvimento Industrial – ZEDI; \nIV - Zonas Especiais de Ciência, Tecnologia e Inovação – ZECTI; \nV - Zonas Especiais de Controle Aeroportuário – ZECA; \nVI – (VETADO). \n \n§ 1º Poderão ser criadas novas Zonas Especiais além das previstas no \ncaput deste artigo, a partir da realização de estudos técnicos, em conformidade \ncom as disposições deste Plano. \n \n§ 2º Empresas que se instalarem nas Zonas Especiais de Desenvolvimento \nIndustrial (ZEDI) terão direito a incentivos fiscais simples, como: \n \na) Isenção de IPTU por até 3 anos; \nb) Redução de até 50% do ISS para atividades industriais e tecnológicas. \n \n§ 3º O acesso aos benefícios dependerá exclusivamente do cumprimento \nde dois requisitos: \n\nESTADO DA PARAÍBA \nPREFEITURA MUNICIPAL DE CAMPINA GRANDE \nGABINETE DO PREFEITO \n\na) Geração de empregos diretos para residentes de Campina Grande; \nb) Início das operações no prazo máximo de 12 meses após a concessão \ndos benefícios. \n\nSEÇÃO I \nDAS ZONAS ESPECIAIS DE INTERESSE SOCIAL",
+        "Art. 99. Considera-se incomodidade o estado de desacordo de uso ou atividade \ncom os condicionantes locais, causando reação adversa sobre a vizinhança, \nobservando suas estruturas físicas e vivências sociais.",
+        "Art. 41. A Zona de Qualificação Urbana 3 caracteriza-se pela infraestrutura \nurbana consolidada, sendo necessária a intensificação do uso misto e adensamento do \nsolo, admitindo coeficiente de aproveitamento inferior ao das demais zonas d e \nqualificação."
+      ],
+      "ground_truth": "ZEIS habitação interesse social",
+      "latency": 2.4327902793884277,
+      "memory_usage": 46.34765625,
+      "context_chunks_count": 5,
+      "difficulty": "easy",
+      "question_type": "factual",
+      "expected_topics": [
+        "ZEIS",
+        "habitação",
+        "interesse social"
+      ],
+      "success": true
+    },
+    {
+      "question": "Art. 180",
+      "answer": "**Objetivos da política de fiscalização e financiamento – Art. 180**\n\nO Art. 180 estabelece seis objetivos principais para a política de fiscalização e financiamento do município:\n\n1. **Incrementar as estratégias e instrumentos de fiscalização** das ações e posturas relacionadas às questões urbanas, territoriais, ambientais e de saúde [1].  \n2. **Ampliar a capacidade de investimento do município** para o financiamento das políticas urbanas e territoriais [2].  \n3. **Promover a gestão dos imóveis e terrenos públicos e privados** do município [3].  \n4. Utilizar incentivos e benefícios fiscais e financeiros como recurso estratégico para direcionar o desenvolvimento econômico e social de Campina Grande [1].  \n5. Implementar melhorias na arrecadação de receitas próprias, diminuindo a dependência de transferências governamentais e incrementando receitas de transferências obrigatórias e voluntárias [2].  \n6. Promover alternativas de financiamento e melhorar a aplicação dos gastos públicos [3].\n\n*Observação:* O contexto fornecido contém apenas a descrição desses seis objetivos; não há informações adicionais sobre procedimentos operacionais, metas quantitativas ou prazos específicos.\n\n**Em resumo:**  \nO Art. 180 define o que a cidade quer melhorar: fiscalizar melhor questões como urbanismo, meio‑ambiente e saúde; ter mais dinheiro para investir nessas áreas; cuidar bem dos terrenos e prédios da cidade; usar descontos e benefícios para estimular a economia local; arrecadar mais impostos próprios para depender menos de dinheiro de outros governos; e buscar novas formas de financiar e gastar o dinheiro público de maneira mais eficiente. Na prática, isso significa que a prefeitura vai tentar ser mais rigorosa na fiscalização, ter mais recursos para obras e serviços, e usar a política tributária como ferramenta para gerar empregos e melhorar a qualidade de vida dos cidadãos.\n\n📚 Fontes:\n[1] Plano-Diretor-Lei-Complementar-no-213-2025\n\n⚠️ Esta resposta é apenas informativa e educacional, consulte sempre os materiais oficiais.",
+      "contexts": [
+        "Art. 180. São objetivos da política de fiscalização e financiamento: \n \nI - incrementar as estratégias e instrumentos de fiscalização das ações e \nposturas relacionadas às questões urbanas, territoriais, ambientais e de saúde; \nII - ampliar a capacidade de investimento do município para o financiamento das \npolíticas urbanas e territoriais; \nIII - promover a gestão dos imóveis e terrenos públicos e privados do município; \nIV - utilizar incentivos e benefícios fiscais e financeiros como recurso est ratégico \npara direcionar o desenvolvimento econômico e social de Campina Grande; \nV - implementar melhorias na arrecadação de receitas próprias, como forma de \ndiminuir a dependência financeira de transferências governamentais dos demais \nentes federativos e incrementar as receitas oriundas de transferências \nobrigatórias e voluntárias; \nVI - promover alternativas de financiamento e de melhoria na aplicação dos \ngastos públicos."
+      ],
+      "ground_truth": "artigo legislação",
+      "latency": 2.5502099990844727,
+      "memory_usage": 2.0,
+      "context_chunks_count": 1,
+      "difficulty": "easy",
+      "question_type": "factual",
+      "expected_topics": [
+        "artigo",
+        "legislação"
+      ],
+      "success": true
+    }
+  ],
+  "model_config": {
+    "llm": "Gemini",
+    "embeddings": "HuggingFace all-MiniLM-L6-v2"
+  },
+  "total_evaluation_time": 120.49519991874695
+}

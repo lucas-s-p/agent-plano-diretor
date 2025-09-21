@@ -255,6 +255,9 @@ assistente-plano-diretor-cg/
 
 ## 📊 Avaliação
 
+Frameworks de Avaliação
+RAGAS: Framework oficial com LLM (Gemini) para avaliação automatizada
+
 ### Métricas Implementadas
 
 #### 🎯 **Métricas de Retrieval**
